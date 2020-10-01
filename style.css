@@ -1,0 +1,59 @@
+nav {
+    background-color: greenyellow;
+    padding: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 6;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    max-height: 100px;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  
+  nav ul li {
+    padding: 0 0 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+
+  .inputnav {
+    float: right;
+    max-height: 100px;
+  }
+ 
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  h1 { 
+    font-size: 50px; 
+    text-align: center;}
+  h3 {
+    font-size: 32px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+  h6 { 
+    font-size: 22px;
+    text-align: center ; 
+  }
+  
+  .banner h1, .banner h3, .banner h6 {
+    margin: 0;
+    text-shadow: 2px 2px 6px #000;
+  }
+  
+  .banner {
+    color: black;
+    background: url('https://www.powerhouseenergy.net/wp-content/uploads/2016/10/investment-banner.jpg') top left/cover no-repeat; 
+    height: 300px;
+  }
