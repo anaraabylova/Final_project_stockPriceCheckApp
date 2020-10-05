@@ -25,6 +25,15 @@ nav {
     float: right;
     max-height: 100px;
   }
+
+  h4{
+    text-align: left;
+  }
+
+  .input-newsletter {
+    float: left;
+  }
+
  
   html, body {
     margin: 0;
